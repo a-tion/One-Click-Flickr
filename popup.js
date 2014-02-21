@@ -53,10 +53,10 @@ var flickrGenerator = {
 
   /**
    * Given a photo, construct a URL using the method outlined at
-   * http://www.flickr.com/services/api/misc.urlKittenl
+   * http://www.flickr.com/services/api/
    *
-   * @param {DOMElement} A kitten.
-   * @return {string} The kitten's URL.
+   * @param {DOMElement}
+   * @return {string} The URL.
    * @private
    */
   constructFlickrURL_: function (photo) {
@@ -68,7 +68,7 @@ var flickrGenerator = {
   }
 };
 
-// Run our kitten generation script as soon as the document's DOM is ready.
+// Run our script as soon as the document's DOM is ready.
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("searchButton").addEventListener('click', getSearchResult);
 });
