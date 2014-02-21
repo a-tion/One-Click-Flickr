@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "One-click Flickr",
+  "description": "This extension allows the users to search pictures on Flickr in one click.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://*/*", "https://*/*"
+  ]
+}
